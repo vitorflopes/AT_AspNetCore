@@ -1,0 +1,67 @@
+﻿@model Core.Models.Post
+
+@{
+    ViewData["Title"] = "EditPost";
+}
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="@ViewBag.ImagemPerfil" width="30" height="30" alt="">
+        <a class="navbar-brand">Olá, @ViewBag.NomeUsuarioLogado</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="Feed">Feed</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="CriarPost">Criar Post<span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="AdicionarAmigo">Adicionar Amigo</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="MinhaListaAmigos">Minha Lista de Amigos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="EditarUsuario">Editar Perfil</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="DetalhesPerfil">Meu Perfil</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="Logoff">Deslogar</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<h1>Editar Post</h1>
+
+<h4>Post</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditPost" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="PostId" />
+            <div class="form-group">
+                <label asp-for="Mensagem" class="control-label"></label>
+                <textarea asp-for="Mensagem" rows="2" cols="25" class="form-control"></textarea>
+                <span asp-validation-for="Mensagem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImagePost" class="control-label"></label>
+                <input type="file" asp-for="ImagePost" class="form-control" accept="image/png, .jpeg, .jpg" required />
+                <span asp-validation-for="ImagePost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+

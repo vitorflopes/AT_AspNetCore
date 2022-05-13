@@ -1,0 +1,68 @@
+﻿@model Core.Models.DetalheUsuario
+
+@{
+    ViewData["Title"] = "CriarUsuario";
+}
+
+<h1>Criar Usuário</h1>
+
+<h4>Perfil</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CriarUsuario"  enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" type="password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" type="email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PrimeiroNome" class="control-label"></label>
+                <input asp-for="PrimeiroNome" class="form-control" />
+                <span asp-validation-for="PrimeiroNome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SegundoNome" class="control-label"></label>
+                <input asp-for="SegundoNome" class="form-control" />
+                <span asp-validation-for="SegundoNome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nascimento" class="control-label"></label>
+                <input asp-for="Nascimento" class="form-control" type="date" />
+                <span asp-validation-for="Nascimento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AssuntosDeInteresse" class="control-label"></label>
+                <input asp-for="AssuntosDeInteresse" class="form-control" />
+                <span asp-validation-for="AssuntosDeInteresse" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input type="file" asp-for="Image" class="form-control" accept="image/png, .jpeg, .jpg" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

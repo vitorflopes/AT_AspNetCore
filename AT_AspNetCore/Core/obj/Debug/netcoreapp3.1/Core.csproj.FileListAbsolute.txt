@@ -1,0 +1,20 @@
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache

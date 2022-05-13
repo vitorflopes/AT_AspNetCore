@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Core.Models.Post>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Feed";
+}
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="@ViewBag.ImagemPerfil" width="30" height="30" alt="">
+        <a class="navbar-brand">Olá, @ViewBag.NomeUsuarioLogado</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="CriarPost">Criar Post<span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="AdicionarAmigo">Adicionar Amigo</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="MinhaListaAmigos">Minha Lista de Amigos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="EditarUsuario">Editar Perfil</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="DetalhesPerfil">Meu Perfil</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="Logoff">Deslogar</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<h1>Feed</h1>
+
+<table class="table">
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <strong>@Html.DisplayFor(modelItem => item.NomeUsuario)</strong>
+                    <br />
+                    <br />
+                    @Html.DisplayFor(modelItem => item.Mensagem)
+                    <br />
+                    <br />
+                    <img src="@item.PathImagePost" style="max-width:350px; height: auto" />
+                    <br />
+                    <span style="font-size: 10px">Publicação feita no dia @Html.DisplayFor(modelItem => item.dataPublicação) </span>
+                    <br />
+                    @if (ViewBag.IdUsuarioLogado == item.UsuarioId)
+                    {
+                        <span>
+                            <a asp-action="EditPost" asp-route-id="@item.PostId">Editar</a> |
+                            <a asp-action="ExcluirPost" asp-route-id="@item.PostId">Excluir</a>                            
+                        </span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

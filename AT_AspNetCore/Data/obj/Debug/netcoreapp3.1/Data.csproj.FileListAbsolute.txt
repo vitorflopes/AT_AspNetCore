@@ -1,0 +1,32 @@
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\obj\Debug\netcoreapp3.1\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+C:\Users\Larissa\Desktop\Larissa\Faculdade\Bloco de .Net\Projeto de bloco\AT_AspNetCore\Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\obj\Debug\netcoreapp3.1\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\gabri\Desktop\Bloco .NET\Projeto de Bloco\AT\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache

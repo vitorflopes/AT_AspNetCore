@@ -1,0 +1,110 @@
+﻿@model IEnumerable<Core.Models.DetalheUsuario>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Sugestão de Amigos";
+}
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="@ViewBag.ImagemPerfil" width="30" height="30" alt="">
+        <a class="navbar-brand">Olá, @ViewBag.NomeUsuarioLogado</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="Feed">Feed</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="CriarPost">Criar Post<span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="AdicionarAmigo">Adicionar Amigo</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="MinhaListaAmigos">Minha Lista de Amigos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="EditarUsuario">Editar Perfil</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="DetalhesPerfil">Meu Perfil</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="Logoff">Deslogar</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<h1>Possíveis Amigos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PathImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrimeiroNome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SegundoNome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AssuntosDeInteresse)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            if (ViewBag.UsuarioLogado != item.Id)
+            {
+                <tr>
+                    <td>
+                        <img src="@Html.DisplayFor(modelItem => item.PathImage)" width="100" height="100" />                        
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PrimeiroNome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SegundoNome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AssuntosDeInteresse)
+                    </td>
+                    <td>
+                        @if (ViewBag.meusAmigos != null)
+                        {
+                            int count = 0;
+                            foreach (var i in ViewBag.meusAmigos)
+                            {
+                                if (i.UsuarioIdB == item.Id)
+                                {
+                                    <span>Usuário já adicionado</span>
+                                    count++;
+                                    break;
+                                }
+                            }
+                            if (count == 0)
+                            {
+                                <a asp-action="ConfirmaAmizade" asp-route-id="@item.Id"><button class="btn btn-primary">Adicionar Amigo</button></a>
+                            }
+
+                        }
+                        else
+                        {
+                            <a asp-action="ConfirmaAmizade" asp-route-id="@item.Id"><button class="btn btn-primary">Adicionar Amigo</button></a>
+                        }
+
+                    </td>
+                </tr>
+            }            
+        }
+    </tbody>
+</table>
